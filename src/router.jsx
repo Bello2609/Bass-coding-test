@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
+import Layout from "./pages/Layout/Layout";
 const Event = lazy(()=>import("./pages/Event/Event"));
 
 
@@ -9,7 +10,9 @@ const Router = ()=>{
             <Routes>
                 <Route exact element={
                     <Suspense>
-                        <Event />
+                        <Layout>
+                            <Event />
+                        </Layout>
                     </Suspense>
                 } />
             </Routes>
