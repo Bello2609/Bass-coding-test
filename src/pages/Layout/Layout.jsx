@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Header from "../../components/Header/Header";
-import Sidebar from "../../components/Sidebar/Sidebar";
-import Events from "../../components/Events/Events";
-import Footer from "../../components/Footer/Footer";
+import Header from "../../Components/Header/Header";
+import Sidebar from "../../Components/Sidebar/Sidebar";
+import Events from "../../Components/Events/Events";
+import Footer from "../../Components/Footer/Footer";
 const Layout = ()=>{
     return (
         <>
