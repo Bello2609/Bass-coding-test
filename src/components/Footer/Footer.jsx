@@ -16,36 +16,36 @@ const Footer = ()=>{
                         </p>
                     </div>
                     <div className="flex flex-col">
-                        <h4 className="text-2xl font-sans text-[#000] font-semibold">Our service</h4>
+                        <h4 className="text-2xl text-[#000] font-semibold">Our service</h4>
                         <div className="flex flex-col mt-3">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">Help center</h4>
+                            <h4 className="text-xl text-[#000] font-semibold opacity-60">Help center</h4>
                         </div>
                         <div className="flex flex-col my-2">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">FAQ</h4>
+                            <h4 className="text-xl text-[#000] font-semibold opacity-60">FAQ</h4>
                         </div>
                     </div>
                     <div className="flex flex-col">
-                        <h4 className="text-2xl font-sans text-[#000] font-semibold">Company</h4>
+                        <h4 className="text-2xl  text-[#000] font-semibold">Company</h4>
                         <div className="flex flex-col mt-3">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">About us</h4>
+                            <h4 className="text-xl text-[#000] font-semibold opacity-60">About us</h4>
                         </div>
                         <div className="flex flex-col my-2">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">Host</h4>
+                            <h4 className="text-xl text-[#000] font-semibold opacity-60">Host</h4>
                         </div>
                         <div className="flex flex-col my-2">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">Activities</h4>
+                            <h4 className="text-xl text-[#000] font-semibold opacity-60">Activities</h4>
                         </div>
                         <div className="flex flex-col my-2">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">Cities</h4>
+                            <h4 className="text-xl  text-[#000] font-semibold opacity-60">Cities</h4>
                         </div>
                     </div>
                     <div className="flex flex-col">
-                        <h4 className="text-2xl font-sans text-[#000] font-semibold">Get in touch</h4>
+                        <h4 className="text-2xl  text-[#000] font-semibold">Get in touch</h4>
                         <div className="flex flex-col mt-3">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">Emailadress@gmail.com</h4>
+                            <h4 className="text-xl  text-[#000] font-semibold opacity-60">Emailadress@gmail.com</h4>
                         </div>
                         <div className="flex flex-col my-2">
-                            <h4 className="text-xl font-sans text-[#000] font-semibold opacity-60">Address of the company</h4>
+                            <h4 className="text-xl  text-[#000] font-semibold opacity-60">Address of the company</h4>
                         </div>
                         <div className="flex text-[#000] text-3xl">
                             <a href="https://www.facebook.com/enterprisehubs01?mibextid=ZbWKwL"><RiFacebookFill /></a>
@@ -56,7 +56,7 @@ const Footer = ()=>{
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col font-sans font-medium text-base text-center mx-16 sm:mx-10">
+                <div className="flex flex-col  font-medium text-base text-center mx-16 sm:mx-10">
                     <p className="text-[#000] mt-5 text-base font-bold italic opacity-60">C 2024 SharpEvent. Event booking agency</p>
                 </div>
             </div>
