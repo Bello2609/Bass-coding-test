@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 const Layout = ()=>{
     return (
         <>
-            <div className="flex flex-col font-inter">
+            <div className="flex flex-col font-inter w-[100%] overflow-x-hidden">
                 <Header />
                     <div>
                         <Sidebar />
