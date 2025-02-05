@@ -8,7 +8,7 @@ const Router = ()=>{
     return(
         <>
             <Routes>
-                <Route exact element={
+                <Route path="/" exact element={
                     <Suspense>
                         <Layout>
                             <Event />
