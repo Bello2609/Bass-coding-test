@@ -4,8 +4,8 @@ import { RiFacebookFill } from "react-icons/ri";
 const Footer = ()=>{
     return(
         <>
-            <div className="flex flex-col w-[100vw] h-fit md:h-fit sm:h-fit bg-[#D8DAE8] justify-evenly overflow-x-hidden py-5 px-16">
-                <div className="flex items-center justify-between lg:flex-row md:flex-col sm:flex-col min-[500px]:flex-col md:items-start sm:items-start  mt-10">
+            <div className="flex flex-col  w-[100vw] h-fit md:h-fit sm:h-fit bg-[#D8DAE8] justify-evenly overflow-x-hidden py-5 px-16">
+                <div className="flex md:flex-col sm:flex-col items-center justify-between  md:items-start sm:items-start  mt-10">
                     <div className="flex flex-col">
                         <h3 className="text-[#0166FF] font-extrabold text-2xl">SHARP EVENT</h3>
                         <p className="w-72 flex-wrap text-[#000] opacity-60 font-inter font-semibold text-base my-3">
