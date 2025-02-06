@@ -8,10 +8,10 @@ const Event = ()=>{
     const [ isGrid, setGrid ] = useState(true);
     return(
         <>
-           <div className="w-[70vw] m-10">
+           <div className="w-[70vw] m-10 sm:m-5">
                 <p className="font-semibold text-[#767676] text-sm">140 search results for</p>
-                <div className="flex mt-3 justify-between">
-                    <p className="font-semibold text-2xl">
+                <div className="flex mt-3 justify-between sm:w-[350px]">
+                    <p className="font-semibold text-2xl sm:text-base">
                         Wedding, Lagos   ₦20k - ₦40k, Excellent
                     </p>
                     <div className="flex justify-evenly w-[100px]">

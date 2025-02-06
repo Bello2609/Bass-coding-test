@@ -5,7 +5,7 @@ import * as images from "../../image";
 const Sidebar = ()=>{
     return(
         <>
-            <div className="w-[30vw]">
+            <div className="w-[30vw] md:flex md:flex-col sm:hidden">
                 <div className="flex flex-col items-center justify-center  h-[100vh] bg-[#F8F8F8]">
                     <div className="flex flex-col w-[326px] h-auto">
                         <div className="text-left w-full my-3">

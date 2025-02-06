@@ -4,11 +4,11 @@ const NoOfEvents = [1,2,3,4,5,6];
 const GridEvent = ()=>{
     return(
         <>
-           <div className="grid grid-cols-2 gap-4 mt-7">
+           <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-7">
                 {
                     NoOfEvents.map(key=>(
                         <>
-                            <div className="flex flex-col w-[396px] h-[381px] p-2" key={key}>
+                            <div className="flex flex-col w-[396px] sm:w-fit h-[381px] p-2" key={key}>
                                 <img src={images.event} alt="event hall" />
                                 <div className="flex justify-between my-2">
                                     <div className="flex flex-col font-semibold">
