@@ -3,6 +3,7 @@ import React from "react";
 import { IoGrid } from "react-icons/io5";
 import { PiListChecks } from "react-icons/pi";
 import GridEvent from "../../Components/GridEvent/GridEvent";
+import ListEvent from "../../Components/ListEvent/ListEvent";
 const Event = ()=>{
     return(
         <>
@@ -21,7 +22,8 @@ const Event = ()=>{
                         </p>
                     </div>
                 </div>
-                <GridEvent />
+                {/* <GridEvent /> */}
+                <ListEvent />
            </div>
         </>
     );
