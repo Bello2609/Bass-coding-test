@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-const CustomButton = ({searchText, className})=>{
+const CustomButton = ({searchText, className, style})=>{
     return(
         <>
-            <button type="submit" className={`bg-[#0166FF] font-semibold text-xs text-[#fff] rounded-full cursor-pointer ${className}`}>
+            <button type="submit" style={style} className={`bg-[#0166FF] font-semibold  text-[#fff] rounded-full cursor-pointer ${className}`}>
                 {searchText}
             </button>
         </>

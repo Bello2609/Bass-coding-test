@@ -17,7 +17,10 @@ const Sidebar = ()=>{
                             <FormInput type="text" placeholder="#20k - #40k" label="Price Range" />
                             <FormInput type="text" placeholder="Execellent" label="Rating" />
                             <div className="mt-5">
-                                <CustomButton searchText="Search" className="w-[100%] h-[42px] mt-10" />
+                                <CustomButton searchText="Search"
+                                style={{
+                                    fontSize: "13px"
+                                }} className="w-[100%] h-[42px] mt-10" />
                             </div>
                         </form>
                     </div>
